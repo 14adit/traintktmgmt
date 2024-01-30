@@ -6,7 +6,7 @@ const TicketSchema = new mongoose.Schema({
         required: true
     },
     train_number: {
-        type: Integer,
+        type: Number,
         required: true
     },
     Passenger_name: {
@@ -26,16 +26,16 @@ const TicketSchema = new mongoose.Schema({
         required: true
     },
     price: {
-        type:Float,
+        type:Number,
         required: true
     },
     date: {
         type: Date,
         default: Date.now
-    },
-    time: {
-        type: Time,
-        default: Time.now
-    }
+     }
+    // time: {
+    //     type: Time,
+    //     default: Time.now
+    // }
 })
 module.exports = Ticket = mongoose.model('ticket',TicketSchema );

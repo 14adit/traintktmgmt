@@ -40,5 +40,3 @@ jspm_packages
 #Excluding build directory
 public/
 
-#notes file
-notes.txt
