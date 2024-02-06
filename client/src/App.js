@@ -6,13 +6,15 @@ import CreateTicket from './components/CreateTicket';
 import ShowTicketList from './components/ShowTicketList';
 import ShowTicketDetails from './components/ShowTicketDetails';
 import UpdateTicketInfo from './components/UpdateTicketInfo';
+import Front from './components/Front';
 
 const App = () =>{
   return (
     <Router>
       <div>
         <Routes>
-           <Route exact path='/' element={<ShowTicketList />} />
+        <Route path='/' exact element={<Front />} />
+           <Route path='/all-tickets' exact element={<ShowTicketList />} />
            <Route path='/create-ticket' element={<CreateTicket />} />
            <Route path='/edit-ticket' element={<UpdateTicketInfo />} />
            <Route path='/show-ticket/:id' element={<ShowTicketDetails />} />
