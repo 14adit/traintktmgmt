@@ -5,6 +5,16 @@
 ## How does it look
 
 ## How to run your instance
+- To run the project we have to install some packages
+     - mongoose
+     - body-parser
+     -express
+     - nodemon
+     - axios
+     - cors
+     - dotenv
+     - react
+     - react-router-dom
 
 ## How does it work
 
