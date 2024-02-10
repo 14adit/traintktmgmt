@@ -35,4 +35,10 @@
    - delete
    - read
    - search      
+ - 
+   - add axios
+   - add basic design
+   - add react hooks
+   - add bootstrap cdn links in public/index.html
+   - 
   

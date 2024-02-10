@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
+import Footer from './Footer';
 // import axios from 'axios';
 
 // import { useNavigate } from 'react-router-dom';
@@ -30,6 +32,7 @@ const CreateTicket = (props) =>{
   // }
     return(
         <div className='CreateTicket'>
+          <Navbar />
           <div className='container'>
             <div className='row'>
              <div className='col-md-8 m-auto'>
@@ -64,6 +67,7 @@ const CreateTicket = (props) =>{
              </div>
               </div>
           </div>
+          <Footer />
         </div>
       );
 };
