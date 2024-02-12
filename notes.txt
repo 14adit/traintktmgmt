@@ -40,5 +40,18 @@
    - add basic design
    - add react hooks
    - add bootstrap cdn links in public/index.html
-   - 
+
+
+- finish createbook
+   - add all the remaining react hooks
+   - complete form
+   - mongodb setup
+      - pickup the sdk url
+      - generate a new db
+      - use the username, password and db-name in the url
+      - uncomment the previous code from db.js
+      - uncomment previous code from server.js
+      - fix spelling mistakes in model
+   - fix routes file
+      - remove comments from previous routes and logic
   

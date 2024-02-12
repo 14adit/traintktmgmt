@@ -3,9 +3,10 @@ const connectDB = require("./config/db");
 const cors = require("cors");
 const tickets = require("./routes/api/tickets");
 const path = require('path');
+require("dotenv").config( { path: "./.env" } )
 
 //Connecting To DB
-// connectDB();
+connectDB();
 
 //Intializing the app
 const app = express();

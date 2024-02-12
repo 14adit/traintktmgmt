@@ -9,7 +9,7 @@ const TicketSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    Passenger_name: {
+    passenger_name: {
         type: String,
         required: true
     },
@@ -29,7 +29,7 @@ const TicketSchema = new mongoose.Schema({
         type:Number,
         required: true
     },
-    date: {
+date: {
         type: Date,
         default: Date.now
      }
@@ -39,3 +39,5 @@ const TicketSchema = new mongoose.Schema({
     // }
 })
 module.exports = Ticket = mongoose.model('ticket',TicketSchema );
+
+
