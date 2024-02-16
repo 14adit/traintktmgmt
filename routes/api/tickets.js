@@ -51,7 +51,7 @@ router.post("/", (req,res) => {
 // @access public
 // Find and UPDATE and SEARCH operation
 
-router.put("/", (req,res) => {
+router.put("/:id", (req,res) => {
     ticket.findByIdAndUpdate(req.params.id, req.body)
     .then((ticket) => res.json( {msg:"This ticket was updated successfully"} ))
     .catch((err) => res.status(400).json({ noticketfound: "Could not update this ticket"}))
