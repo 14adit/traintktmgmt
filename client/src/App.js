@@ -16,7 +16,7 @@ const App = () =>{
         <Route path='/' exact element={<Front />} />
            <Route path='/all-tickets' exact element={<ShowTicketList />} />
            <Route path='/create-ticket' element={<CreateTicket />} />
-           <Route path='/edit-ticket' element={<UpdateTicketInfo />} />
+           <Route path='/edit-ticket/:id' element={<UpdateTicketInfo />} />
            <Route path='/show-ticket/:id' element={<ShowTicketDetails />} />
         </Routes>
       </div>
