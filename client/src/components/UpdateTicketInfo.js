@@ -49,14 +49,14 @@ function UpdateTicketInfo(props) {
     e.preventDefault();
 
     const data = {
-      train_name: data.train_name,
-      train_number: data.train_number,
-      passenger_name: data.passenger_name,
-      gender: data.gender,
-      start: data.start,
-      end: data.end,
-      price: data.price,
-      date: data.date,
+      train_name: ticket.train_name,
+      train_number: ticket.train_number,
+      passenger_name: ticket.passenger_name,
+      gender: ticket.gender,
+      start: ticket.start,
+      end: ticket.end,
+      price: ticket.price,
+      date: ticket.date,
     };
 
     axios
@@ -78,7 +78,7 @@ function UpdateTicketInfo(props) {
         <div className='row'>
           <div className='col-md-8 m-auto'>
             <br />
-            <Link to='/' className='btn btn-outline-warning float-left'>
+            <Link to='/all-tickets' className='btn btn-outline-warning float-left'>
               Show Ticket List
             </Link>
           </div>

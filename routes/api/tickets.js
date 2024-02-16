@@ -14,7 +14,7 @@ router.get('/test', (req,res) => {
 router.get("/",(req,res) => {
     Ticket.find()
     .then((tickets) => res.json(tickets))
-    .then(() => res.json({OK: "All Tickets route working fine"}))
+    // .then(() => res.json({OK: "All Tickets route working fine"}))
     .catch((err) => res.status(404).json({noticketsfound: 'MongoDB could not the details'}));
     // res.json({OK: "All Tickets route working fine"})
 });
