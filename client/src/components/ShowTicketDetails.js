@@ -46,7 +46,7 @@ function ShowTicketDetails(props) {
         // Delay the navigation slightly to allow the toast to be seen
         setTimeout(() => {
           // setShowToast(false); // Hide the toast
-          navigate('/'); // Navigate to homepage
+          navigate('/all-tickets'); // Navigate to homepage
         }, 5000); // Adjust the timeout as needed
       })
       .catch((err) => {
