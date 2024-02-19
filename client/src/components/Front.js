@@ -25,7 +25,7 @@ function Front() {
             <button type="button" class="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 mt-4 h-12 w-auto">Read</button>
          </div>
         </section>
-        <div className='bg-zinc-200 rounded-t-lg md:grid gap-3 md:grid-cols-5 md:p-4'>
+        <div className='bg-zinc-200 rounded-t-lg grid gap-8 md:grid gap-3 md:grid-cols-5 md:p-4'>
               <div className='bg-white h-60 w-auto hover:scale-105 duration-500 bg-center bg-cover rounded-lg' style={{backgroundImage:"url(/images/Train1.jpg)"}}>
                   
               </div>

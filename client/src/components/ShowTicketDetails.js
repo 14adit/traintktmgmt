@@ -135,26 +135,26 @@ function ShowTicketDetails(props) {
 
             <div className='row justify-content-around mt-3'>
               <div className='col-md-4'>
-                <button
+                <Link
                   type='button'
-                  className='btn btn-outline-danger btn-lg btn-block'
+                  className='focus:outline-none text-black bg-red-400 hover:bg-red-500 focus:ring-4 focus:ring-red-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-red-900 mt-4 h-12 w-auto'
                   onClick={() => {
                     onDeleteClick(ticket._id);
                   }}
                 >
                   Delete Ticket
-                </button>
+                </Link>
               </div>
               <div className='col-md-4'>
                 <Link
                   to={`/edit-ticket/${ticket._id}`}
-                  className='btn btn-outline-info btn-lg btn-block'
+                  className='focus:outline-none text-black bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-blue-900 mt-4 h-12 w-auto'
                 >
                   Edit Ticket
                 </Link>
               </div>
               <div className='col-md-4'>
-                <Link to='/all-tickets' className='btn btn-outline-warning btn-lg btn-block'>
+                <Link to='/all-tickets' className='focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 mt-4 h-12 w-auto'>
                   Show Ticket List
                 </Link>
               </div>

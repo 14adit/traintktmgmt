@@ -43,7 +43,7 @@ const CreateTicket = (props) => {
           price: "",
           date: ""
         })
-        navigate("/")
+        navigate("/all-tickets")
       })
       .catch((err) => {
         console.log('Error in CreateBook!');
@@ -150,10 +150,12 @@ const CreateTicket = (props) => {
               </div>
 
               {/* SUBMIT BUTTON */}
+              <center>
               <input
                 type='submit'
-                className='btn btn-outline-warning btn-block mt-4'
+                className='focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 mt-4 h-12 w-auto'
               />
+              </center>
             </form>
           </div>
         </div>

@@ -37,6 +37,12 @@
   }
 }
 
+.CreateTicket {
+  background-color: black;
+  min-height: 100vh;
+  color: beige;
+}
+
 .ShowTicketList {
   background-color: black;
   height: 100%;
@@ -45,10 +51,31 @@
   min-width: 100px;
   color: beige;
 }
+
 .card-container {
   width: 250px;
   border: 1px solid rgb(165, 165, 165);
   margin: 0 auto;
   border-radius: 5px;
   overflow: hidden;
+}
+
+.list {
+  display: grid;
+  margin: 20px 0 50px 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+}
+
+.UpdateTicketInfo {
+  background-color: black;
+  min-height: 100vh;
+  color: beige;
+}
+
+.ShowTicketDetails {
+  background-color: black;
+  min-height: 100vh;
+  color: beige;
 }

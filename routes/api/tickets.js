@@ -65,7 +65,7 @@ router.put("/:id", (req,res) => {
 // @access public
 // FIND and DELETE and SEARCH operation
 
-router.delete("/", (req,res) => {
+router.delete("/:id", (req,res) => {
     ticket.findByIdAndRemove(req.params.id, req.body)
     .then((ticket) => res.json( {msg:"This ticket was deleted successfully"} ))
     .catch((err) => res.status(404).json({ noticketfound: "Could not delete this ticket"}))
