@@ -16,7 +16,7 @@ function Front() {
         </div>
         <section className='grid gap-8 md:grid-cols-2 md:items-center md:text-left p-10 bg-zinc-900 '>
          <div className=''>
-           <img className='w-full rounded-lg h-96' src='/images/Trainplatform3.jpg'></img>
+           <img className='w-full rounded-lg h-96' src='/images/Trainplatform3.jpg' alt="train_img"></img>
          </div>
          <div>
             <p>
