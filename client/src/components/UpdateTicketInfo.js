@@ -88,106 +88,106 @@ function UpdateTicketInfo(props) {
           </div>
         </div>
 
-        <div className='col-md-8 m-auto'>
-          <form noValidate onSubmit={onSubmit}>
-            <div className='form-group'>
+        <div className=''>
+          <form class="max-w-sm mx-auto" noValidate onSubmit={onSubmit}>
+            <div className='mb-3'>
               <label htmlFor='train_name'>Train Name</label>
               <input
                 type='text'
                 placeholder='Name of the Train'
                 name='train_name'
-                className='form-control'
+                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                 value={ticket.train_name}
                 onChange={onChange}
               />
             </div>
             <br />
 
-            <div className='form-group'>
+            <div className='fmb-3'>
               <label htmlFor='train_number'>Train Number</label>
               <input
                 type='number'
                 placeholder='Train Number'
                 name='train_number'
-                className='form-control'
+                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                 value={ticket.train_number}
                 onChange={onChange}
               />
             </div>
             <br />
 
-            <div className='form-group'>
+            <div className='mb-3'>
               <label htmlFor='passenger_name'>Passenger Name</label>
               <input
                 type='text'
                 placeholder='Passenger Name'
                 name='passenger_name'
-                className='form-control'
+                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                 value={ticket.passenger_name}
                 onChange={onChange}
               />
             </div>
             <br />
 
-            <div className='form-group'>
+            <div className='mb-3'>
               <label htmlFor='gender'>Gender</label>
               <textarea
                 type='text'
                 placeholder='Gender'
                 name='gender'
-                className='form-control'
+                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                 value={ticket.gender}
                 onChange={onChange}
               />
             </div>
             <br />
 
-            <div className='form-group'>
+            <div className='mb-3'>
               <label htmlFor='start'>Starting Point</label>
               <input
                  type='text'
                  placeholder='Starting Point'
                  name='start'
-                 className='form-control'
+                 className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                  value={ticket.start}
                  onChange={onChange}
               />
             </div>
             <br />
 
-            <div className='form-group'>
+            <div className='mb-3'>
               <label htmlFor='end'>Ending Point</label>
               <input
                type='text'
                placeholder='Ending Point'
                name='end'
-               className='form-control'
+               className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                value={ticket.end}
                onChange={onChange}
               />
             </div>
             <br />
 
-            <div className='form-group'>
+            <div className='mb-3'>
               <label htmlFor='price'>Price</label>
               <input
                type='number'
                placeholder='Price'
                name='price'
-               className='form-control'
+               className='fbg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                value={ticket.price}
                onChange={onChange}
               />
             </div>
             <br />
 
-            <div className='form-group'>
+            <div className='mb-3'>
               <label htmlFor='date'>Date</label>
               <input
                type='date'
                placeholder='Date of booking'
                name='date'
-               className='form-control'
+               className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                value={ticket.date}
                onChange={onChange}
               />

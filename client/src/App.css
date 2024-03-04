@@ -52,12 +52,44 @@
   color: beige;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .card-container {
-  width: 250px;
-  border: 1px solid rgb(165, 165, 165);
+  width: 280px;
+  border: 1px solid rgba(11, 1, 1, 0.379);
   margin: 0 auto;
   border-radius: 5px;
   overflow: hidden;
+  background-color: azure;
+  text-align: center;
+  color:#282c34;
+  /* box-shadow: 4px 4px 4px 4px whitesmoke; */
+}
+.card-container>img {
+    width: 280px;
+}
+.card-container>h2{
+  font-size: large;
+  color: cadetblue;
 }
 
 .list {

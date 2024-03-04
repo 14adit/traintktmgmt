@@ -9,7 +9,7 @@ const TicketCard = (props) => {
   return (
     <div className='card-container'>
       <img
-        src='https://images.unsplash.com/photo-1495446815901-a7297e633e8d'
+        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKXfRNxpviykeBzRl6g43ZjsS9XTNpXFsLpQ&usqp=CAU'
         alt='Tickets'
         height={200}
       />

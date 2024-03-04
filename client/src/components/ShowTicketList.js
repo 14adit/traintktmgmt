@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../App.css';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import BookCard from './TicketCard';
+import TicketCard from './TicketCard';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -24,7 +24,7 @@ function ShowTicketList() {
   const TicketList =
     tickets.length === 0
       ? 'there is no ticket record!'
-      : tickets.map((ticket, k) => <BookCard ticket={ticket} key={k} />);
+      : tickets.map((ticket, k) => <TicketCard ticket={ticket} key={k} />);
 
   return (
     <div className='ShowTicketList'>

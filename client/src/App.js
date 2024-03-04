@@ -7,6 +7,7 @@ import ShowTicketList from './components/ShowTicketList';
 import ShowTicketDetails from './components/ShowTicketDetails';
 import UpdateTicketInfo from './components/UpdateTicketInfo';
 import Front from './components/Front';
+import AllRoutes from './components/AllRoutes';
 
 const App = () =>{
   return (
@@ -18,6 +19,7 @@ const App = () =>{
            <Route path='/create-ticket' element={<CreateTicket />} />
            <Route path='/edit-ticket/:id' element={<UpdateTicketInfo />} />
            <Route path='/show-ticket/:id' element={<ShowTicketDetails />} />
+           <Route path='/all-routes' element={<AllRoutes />} />
         </Routes>
       </div>
     </Router>

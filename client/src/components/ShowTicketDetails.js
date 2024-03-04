@@ -147,6 +147,7 @@ function ShowTicketDetails(props) {
               </div>
               <div className='col-md-4'>
                 <Link
+                  type='button'
                   to={`/edit-ticket/${ticket._id}`}
                   className='focus:outline-none text-black bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-blue-900 mt-4 h-12 w-auto'
                 >
@@ -154,7 +155,10 @@ function ShowTicketDetails(props) {
                 </Link>
               </div>
               <div className='col-md-4'>
-                <Link to='/all-tickets' className='focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 mt-4 h-12 w-auto'>
+                <Link 
+                   type='button'
+                  to='/all-tickets' 
+                  className='focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-bold rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 mt-4 h-12 w-auto'>
                   Show Ticket List
                 </Link>
               </div>

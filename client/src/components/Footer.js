@@ -14,14 +14,6 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 
 const Footer = () => (
-    // <footer className="page-footer font-small bg-gray-800 text-white h-auto">
-    //     <Outlet />
-    //     <div className="container text-center">
-    //         <div className="py-1">Built with ❤️ By Aditya</div>
-    //     </div>
-    // </footer>
-    // <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
-// <!-- Footer container -->
 <footer
   class="bg-neutral-100 text-center text-neutral-600 dark:bg-zinc-800 dark:text-neutral-200 lg:text-left">
     <Outlet />
