@@ -53,7 +53,7 @@ const CreateTicket = (props) => {
   }
 
   return (
-    <div className="CreateTicket">
+    <div className="CreateTicket bg-[url('/src/parabolic-rectangle.svg')]">
       <Navbar />
       <div className='container'>
         <div className='row'>

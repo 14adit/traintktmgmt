@@ -6,7 +6,7 @@ function Front() {
   return(
     <div className=" text-white " >
       <Navbar />
-        <div className="md:pb-5 md:max-w-full size-full bg-center bg-scroll bg-cover pt-28 bg-[url('/src/endless-constellation.svg')]">
+        <div className="md:pb-7 md:max-w-full size-full bg-center bg-scroll bg-cover pt-28 bg-[url('/src/vanishing-stripes.svg')]">
            <h1 className='text-center text-6xl font-bold max-sm:text-3xl'>WELCOME TO <span className='text-orange-500 font-bold'>TicketBK</span></h1>
            <p className='text-3xl mt-20 text-center'>Book Tickets Here And Enjoy Your Travel 💕</p>
            <p className='text-l mt-3 text-center'>LET'S START TO EXPLORE  👇</p>

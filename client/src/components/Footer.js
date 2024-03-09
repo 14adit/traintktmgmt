@@ -104,7 +104,7 @@ const Footer = () => (
             <path
               d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
           </svg>
-          TW elements
+         TicketBK\
         </h6>
         <p>
           Here you can use rows and columns to organize your footer
@@ -112,37 +112,10 @@ const Footer = () => (
           elit.
         </p>
       </div>
-      {/* <!-- Products section --> */}
-      <div class="">
-        <h6
-          class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-          Products
-        </h6>
-        <p class="mb-4">
-          <a href="#!" class="text-neutral-600 dark:text-neutral-200"
-            >Angular</a
-          >
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-neutral-600 dark:text-neutral-200"
-            >React</a
-          >
-        </p>
-        <p class="mb-4">
-          <a href="#!" class="text-neutral-600 dark:text-neutral-200"
-            >Vue</a
-          >
-        </p>
-        <p>
-          <a href="#!" class="text-neutral-600 dark:text-neutral-200"
-            >Laravel</a
-          >
-        </p>
-      </div>
       {/* <!-- Useful links section --> */}
       <div class="">
         <h6
-          class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+          class="mb-4 flex justify-center font-semibold uppercase md:justify-center">
           Useful links
         </h6>
         <p class="mb-4">
@@ -157,7 +130,7 @@ const Footer = () => (
         </p>
         <p class="mb-4">
           <a href="#!" class="text-neutral-600 dark:text-neutral-200"
-            >Orders</a
+            >Bookings</a
           >
         </p>
         <p>
@@ -183,7 +156,7 @@ const Footer = () => (
             <path
               d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
           </svg>
-          New York, NY 10012, US
+          Odisha,India
         </p>
         <p class="mb-4 flex items-center justify-center md:justify-start">
           <svg
@@ -233,8 +206,8 @@ const Footer = () => (
     <span>© 2023 Copyright:</span>
     <a
       class="font-semibold text-neutral-600 dark:text-neutral-400"
-      href="https://tw-elements.com/"
-      >TW elements</a
+      href="#"
+      >TicketBK</a
     >
   </div>
 </footer>

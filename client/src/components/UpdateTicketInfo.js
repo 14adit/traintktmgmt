@@ -71,7 +71,7 @@ function UpdateTicketInfo(props) {
   };
 
   return (
-    <div className='UpdateTicketInfo'>
+    <div className="UpdateTicketInfo bg-[url('/src/parabolic-rectangle.svg')]">
       <Navbar />
       
       <div className='container'>

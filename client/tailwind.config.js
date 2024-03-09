@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'mainSvg': "url('/src/endless-constellation.svg')"
+        'mainSvg': "url('/src/vanishing-stripes.svg')",
+        'secondSvg': "url('/src/parabolic-rectangle.svg')"
     }
   },
   plugins: [],
